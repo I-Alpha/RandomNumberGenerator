@@ -1,0 +1,30 @@
+
+Implement a method Generate() and a minimal but effective set of unit tests (can use any testing framework). 
+
+For example, called with Random Numbers [-1, 0, 1, 2, 3] and Probabilities [0.01, 0.3, 0.58, 0.1, 0.01], after calling the method 100 times 
+
+a similar result set should be created (as results are RANDOM, these particular results are unlikely): 
+
+
+
+-1: 1 time(s)
+
+ 0: 22 time(s)
+
+ 1: 57 time(s)
+
+ 2: 20 time(s)
+
+ 3: 0 time(s) 
+
+
+
+You may only use Random().NextDouble()  which returns a pseudo random number between 0 and 1.
+
+Signature of the method: 
+
+public int Generate(int[] numbers, float[] probabilities)
+
+
+
+Once the task is completed, put the implementation and tests in a single file and upload it.
